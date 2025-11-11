@@ -62,29 +62,7 @@ html{
     width: 30%;
 }
 
-#curiosidades{
-    background-color: #141414;
-    color: #b3b3b3;
-    margin: 0 auto;
-    width: 75%;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#lugares{
-    background-color: #141414;
-    color: #b3b3b3;
-    margin: 0 auto;
-    width: 75%;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#lugares_c{
+.curio {
     background-color: #141414;
     color: #b3b3b3;
     margin: 0 auto;

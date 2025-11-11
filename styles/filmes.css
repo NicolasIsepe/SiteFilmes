@@ -48,7 +48,7 @@ img {
     color: #ffffff;
 }
 
-.pagina-filme {
+#pagina-filme1 {
     position: relative;
     background-image: url("../imagens/sinners-pecadores-banner.jpg");
     background-size: cover;
@@ -57,6 +57,29 @@ img {
     height: 75vh;
     width: 100%;
     overflow: hidden;
+}
+
+#pagina-filme2 {
+    position: relative;
+    background-image: url("../imagens/questao_de_tempo_foto_reproducao___imdb.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pagina-filme::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 1;
 }
 
 .conteudo-filme {
@@ -133,18 +156,6 @@ img {
 .creditos strong {
     color: #ffffff;
     font-weight: bolder;
-}
-
-.pagina-filme::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
-    opacity: 0.5;
-    z-index: 1;
 }
 
 .informacoes-filme {
