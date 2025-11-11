@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.linha{
+    width: 95%;
+    border-color: #000000;
+}
+
+#top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #141414;
+    color: #ffffff;
+    font-size: larger;
+    padding: 1%;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.opcao_menu{
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: smaller;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
+.opcao_menu:hover{
+    background-color: #242424;
+    transform: scale(1.1);
+}
+
+
+#eu{
+    background-color: #141414;
+    color: #b3b3b3;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre{
+    text-align: justify;
+    width: 30%;
+}
+
+#curiosidades{
+    background-color: #141414;
+    color: #b3b3b3;
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#lugares{
+    background-color: #141414;
+    color: #b3b3b3;
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#lugares_c{
+    background-color: #141414;
+    color: #b3b3b3;
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    color: #ffffff;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#galeria {
+    background-color: #141414;
+    color: #b3b3b3;
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#galeria table {
+    margin: 0 auto;
+    border-spacing: 15px;
+}
+
+#galeria img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+#galeria img:hover{
+    transform: scale(1.2);
+    object-fit: contain; 
+}
+
+#voltar{
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    color: #ffffff;
+    background-color: #141414;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#voltar:hover{
+    background-color: #242424;
+    transform: scale(1.2);
+}
